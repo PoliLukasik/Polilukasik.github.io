@@ -20,24 +20,25 @@
 </head>
 <body>
     <!-- NAVBAR: Menú de navegación fijo superior -->
-<nav class="navbar navbar-expand-lg fixed-top">
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top scrolled">
   <div class="container">
     <!-- Logo o nombre del sitio -->
-    <a class="navbar-brand" href="index.html">Kidkit</a>
+    <a class="navbar-brand" href="detalle.html">Kidkit</a>
     <!-- Botón para mostrar menú en mobile -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Ítems del menú -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html">Nuestro enfoque</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html">Ediciones anteriores</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#">Suscripciciones</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html">Contacto</a></li>
-        <li class="nav-item"></li><a href="index.html" class="nav-item btn btn-dark">Iniciar Sesión</a></li>
-        <li class="nav-item"></li><a href="index.html" class="nav-item btn btn-outline-dark">Registrarse</a></li>
+    <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+        <li class="nav-item ps-3 ms-0"><a class="nav-link ms-0 px-0" href="index.html">Nuestro enfoque</a></li>
+        <li class="nav-item ps-3 ms-0"><a class="nav-link ms-0 px-0" href="index.html">Ediciones anteriores</a></li>
+        <li class="nav-item ps-3 ms-0"><a class="nav-link ms-0 px-0" href="#">Suscripciciones</a></li>
+        <li class="nav-item ps-3 ms-0"><a class="nav-link ms-0 px-0" href="index.html">Contacto</a></li>
+        <li class="nav-item ps-3 ms-0"></li><a href="index.html" class="nav-item btn btn-dark">Iniciar Sesión</a></li>
+        <li class="nav-item ps-3 ms-0"></li><a href="index.html" class="nav-item btn btn-outline-dark">Registrarse</a></li>
       </ul>
     </div>
   </div>
@@ -45,109 +46,132 @@
 <!-- /NAVBAR -->
 
 <!-- HERO: Sección de portada con llamado a la acción -->
-<section class="section-spacing container d-flex align-items-center justify-content-between" style="min-height: 100vh; padding-top: 100px;">
-  <div class="row align-items-center">
+<section class="section-spacing d-flex align-items-start align-items-lg-center section-hero-detalle mt-0" style="min-height: 75vh; padding-top: 100px;">
+  <div class="w-100">
+  <div class="section-custom container row align-items-center">
     <!-- Texto principal -->
     <div class="col-lg-5">
-    <h5 class="text-start"><span class="badge bg-primary ms-2 Plata text-start">Plata</span></h5>
+    <h5 class="text-start"><span class="badge Plata text-start plata mb-4">Plata</span></h5>
       <h1 class="h1-custom">Empezá a construir su futuro hoy con Kidkit</h1>    
     </div>
     <!-- Imagen destacada -->
-    <div class="col-lg-7 text-center">
-      <img src="assets/img/imgherodetalleDesktop.png" class="img-fluid img-rounded" alt="Imagen Hero">
-    </div>
+        </div>
   </div>
+</div>
 </section>
 <!-- /HERO -->
 
 <!-- SECCIÓN B: Imagen izquierda, texto derecha -->
-<section class="section-spacing container">
+<section class="section-spacing ">
+  <div class="section-custom">
   <div class="row align-items-center">
     <!-- Columna de imagen -->
-    <div class="col-lg-6 text-center mb-4 mb-lg-0">
+    <div class="col-lg-7 text-center mb-4 mb-lg-0">
       <img src="assets/img/imgSuscribite.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
     </div>
     <!-- Columna de texto -->
-    <div class="col-lg-6">
+    <div class="col-lg-5">
     <div class="d-flex justify-content-between align-items-center mb-4" >
-        <h5 class="text-start"><span class="badge bg-primary ms-2">Plata</span></h5>
-        <h5 class="text-end"><span class="badge bg-primary ms-2 masElegido">Más elegido</span></h5>
+        <h5 class="text-start"><span class="badge plata ">Plata</span></h5>
+        <h5 class="text-end"><span class=" masElegido align-items-start"><img src="assets/img/iconoKidkit.svg"  alt=""> Más elegido</span></h5></h5>
     </div>
         
-      <h2 class="display-4" class="h2-custom">Suscribite a Kidkit</h2>
-      <h4>Nuevas eventuras cada 15 días</h4>
+      <h2 class="h2-custom mb-0">Suscribite a Kidkit</h2>
+      <h4 class="mes mb-4">Nuevas eventuras cada 15 días</h4>
        <!-- Descripción -->
-        <p class="p-custom text-start"><strong>¿Qué incluye?</strong></p>
-        
+               
         <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-start" >
-          <li> <i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
-          <li><i class="bi bi-check-circle"></i> 25 Piezas de materiales</li>
-          <li><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>
-          <li><i class="bi bi-check-circle"></i> 1 Bitácora para tomar nota</li>
-          <li><i class="bi bi-check-circle"></i> 1 Boucher con 25% de descuento en marcas seleccionadas</li>
+        <ul class="list-unstyled text-start mx-start mb-4" >
+          <li class="lead-custom dark-text mb-3"> <img src="assets/img/imgRecibir.png" class="me-2"/>Recibilo en tu casa</li>
+          <li class="lead-custom dark-text mb-3"> <img src="assets/img/imgAhorrar.png" class="me-2"/>Ahorrá en tus compras</li>
+          <li class="lead-custom dark-text"> <img src="assets/img/imgSwapear.png" class="me-2"/>Swapeá, si ya lo tenés </li>
+         
         </ul>
 
-        <p class="display-6 text-dark text-start">$25.560 <small>por mes</small></p>
+        <p class="precio text-dark text-start">$25.560 <span class="mes">por mes</span></p>
 
         <!-- Botón CTA -->
-        <div class="d-flex justify-content-between align-items-center mb-4">
-        <span><a href="index.html" class="btn btn-primary mt-3">Suscribirme</a></span>
-        <span class="align-self-end"><img src="assets/img/imgPaidMedia.png" alt="Medios de pago disponibles"></div></span>
+        <div class=" mb-4">
+        <a href="index.html" class="btn btn-primary mb-4">Suscribirme</a>
+        <img src="assets/img/imgPaidMedia.png" alt="Medios de pago disponibles"></div>
         
     </div>
   </div>
+</div>
 </section>
 
  <!-- SECCIÓN E: Beneficios con íconos centrados (Bootstrap Icons) -->
-<section class="section-spacing container text-center py-5">
-    <div class="row">
+<section class="section-spacing ">
+  
+  <div class="section-custom">
+    <h2 class="h2-custom"> ¿Qué incluye?</h2>
+    <div class="row text-center">
     <!-- Beneficio 1 -->
-    <div class="col-md-4 mb-4">
-      <img src="assets/img/imgRecibir.png" alt="Recibilo">
-      <h5>Recibilo en tu casa</h5>
+    <div class="col-md-3 mb-3">
+      <img src="assets/img/ImgMateriales.png" alt="Recibilo">
+      <h5 class="titulo-gris">Materiales (25 piezas)</h5>
     </div>
     <!-- Beneficio 2 -->
-    <div class="col-md-4 mb-4">
-      <img src="assets/img/imgAhorrar.png" alt="Ahorrá">
-      <h5>Ahorrá en tus compras</h5>
+    <div class="col-md-3 mb-3">
+      <img src="assets/img/imgManual.png" alt="Ahorrá">
+      <h5 class="titulo-gris">Guía paso a paso</h5>
     </div>
     <!-- Beneficio 3 -->
-    <div class="col-md-4 mb-4">
-      <img src="assets/img/imgSwapear.png" alt="Swapeá">
-      <h5>Swapeá, si ya lo tenés</h5>
+    <div class="col-md-3 mb-3">
+      <img src="assets/img/imgBitacora.png" alt="Swapeá">
+      <h5 class="titulo-gris">Bitácora</h5>
     </div>
-  </div>
+  
+  <div class="col-md-3 mb-3">
+      <img src="assets/img/imgBoucher.png" alt="Swapeá">
+      <h5 class="titulo-gris">Boucher -25%</h5>
+    </div>
+  </div></div>
 </section>
     <!-- ... repetir estructura para más servicios ... -->
-  </div>
+  </div></div>
 </section>
 <!-- /SERVICES -->
 
 <!--BOX-->
-<section class="section-spacing container">
-    <h2 class="h2-custom text-start">En este Kidkit</h2>
-    <img src="assets/img/imgEnesteKidkit.png" class="img-fluid img-rounded w-100" alt="En este Kidkit">
-   <div class="col-lg-6 justify-content-start"> 
-    <h5 class="text-start"><span class="badge bg-primary ms-2">Plata</span></h5>
-    <h3>Carpintería: Construimos un banquito</h3>
-     <p class="lead-custom">Esta semana los chicos se convierten en pequeños carpinteros para construir su propio banquito de madera. Van a medir, ensamblar y lijar, usando <strong>herramientas seguras y materiales adaptados a su edad.</strong></p>
+<section class="section-spacing ">
+  <div class="section-custom">
+    <h2 class="h2-custom mb-4">En este Kidkit</h2> 
+    <div class="row align-items-center">
+     <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+      <img src="assets/img/imgKidkitBrownies.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
     </div>
-
+    
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+          
+      <div class="dropdown col-lg-3 ">
+      </div>
+  <span class="badge plata mt-4 mb-4">Plata</span>
+      <h3 class="titulo-gris">Carpintería: Construimos un banquito</h3>
+      <p class="lead-custom">Esta semana los chicos se convierten en pequeños carpinteros para construir su propio banquito de madera. Van a medir, ensamblar y lijar, usando <strong>herramientas seguras y materiales adaptados a su edad.</strong></p>
+      
+    </div>
+   
+  </div>
+</div>
 </section>
 <!--BOX-->
 
 <!--PROYECTOS-->
-<section >
-  <div class="section-spacing container justify-content-start">
-    <h3>Nuestros proyectos </h3>
+<section class="my-0 py-0" >
+  <div class="section-spacing justify-content-start">
+    <div class="section-custom">
+    <h2 class="mb-4">Nuestros proyectos </h2>
 </div>
-    <img src="assets/img/gIFProyectos.gif" class="img-fluid" alt="Logos de Marcas que nos acompañan">
-  
+    <img src="assets/img/gIFProyectos.gif" class="img-fluid" alt="Gif con proyectos">
+</div>
 </section>
 
 <!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
-<section class="section-spacing container text-center">
+<section class="section-spacing text-center">
+  <div class="section-custom">
   <h2 class="h2-custom">Quizá también pueda interesarte</h2>
     
   <div class="row mt-5">
@@ -155,155 +179,151 @@
     <!-- Card: Plan Básico -->
     <div class="col-md-4 mb-4">
       <div class="card p-4 h-100">
+        <div class="d-flex flex-column h-100">
+        
         <!-- Título y precio -->
-        <h5 class="text-start"><span class="badge bg-primary ms-2 align-self-start">Bronce</span></h5>
+        <h5 class="text-start"><span class="badge bronce ms-2 align-self-start">Bronce</span></h5>
         
         
         <!-- Imagen ilustrativa -->
-        <img src="assets/img/imgSuscripcionesCajaBronce.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
-        <p class="display-6 text-dark text-start">$15.450 <small>por mes</small></p>
+        <img src="assets/img/imgSuscripcionesCajaBronce.png" class="img-fluid img-rounded w-100 my-3" alt="Plan Básico">
+        <p class="precio text-start mb-0">$15.450 <span class="mes"> por mes</span></p>
+
         <!-- Descripción -->
-        <p class="p-custom text-start">2 kits mensuales para construir su futuro hoy.<br><br><strong>¿Qué incluye?</strong></p>
-        
+        <p class="lead-custom text-start mb-4">2 kits mensuales para construir su futuro hoy.</p>
+        <p class="lead-custom text-start mb-4"><strong>¿Qué incluye?</strong></p>
         <!-- Lista de beneficios -->
         <ul class="list-unstyled text-start mx-start">
-          <li> <i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
-          <li><i class="bi bi-check-circle"></i> 10 Piezas de materiales</li>
-          <li><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>          
-          <li><i class="bi bi-check-circle"></i> 1 Boucher con 10% de descuento en marcas seleccionadas</li>
+          <li class="lead-custom mb-3"> <i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
+          <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 10 Piezas de materiales</li>
+          <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>          
+          <li class="lead-custom "><i class="bi bi-check-circle"></i> 1 Boucher con 10% de descuento en marcas seleccionadas</li>
         </ul>
+      </div>
 
         <!-- Botón CTA -->
         <a href="detalle.html" class="btn btn-primary mt-3">Suscribirme</a>
       </div>
-    </div>
+    </div>   
 
-   
-
-    <!-- Card: Plan Full -->
+     <!-- Card: Plan Full -->
     <div class="col-md-4 mb-4">
       <div class="card p-4 h-100">
-        <!-- Título y precio -->
-        <h5 class="text-start"><span class="badge bg-primary ms-2">Oro</span></h5>
-       
-        
-        <!-- Imagen ilustrativa -->
-        <img src="assets/img/imgSuscripcionesCajaOro.png" class="img-fluid img-rounded my-3" alt="Plan Full"> 
-        <p class="display-6 text-dark text-start">$40.170 <small>por mes</small></p>
+        <div class="d-flex flex-column h-100">
+      <!-- Contenido superior -->
+      <h5 class="text-start"><span class="badge oro ms-2">Oro</span></h5>
+      <img src="assets/img/imgSuscripcionesCajaOro.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+      <p class="precio text-start mb-0">$40.170 <span class="mes">por mes</span></p>
+      <p class="lead-custom text-start mb-4">2 kits mensuales para construir su futuro hoy.</p>
+      <p class="lead-custom text-start mb-4"><strong>¿Qué incluye?</strong></p>
+      <ul class="list-unstyled text-start mx-start">
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 30 Piezas de materiales</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Bitácora para tomar nota</li>
+        <li class="lead-custom"><i class="bi bi-check-circle"></i> 1 Boucher con 25% de descuento en marcas seleccionadas</li>
+      </ul></div>
 
-        <!-- Descripción -->
-        <p class="p-custom text-start">2 kits mensuales para construir su futuro hoy.<br><br><strong>¿Qué incluye?</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-start">
-          <li> <i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
-          <li><i class="bi bi-check-circle"></i> 30 Piezas de materiales</li>
-          <li><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>
-          <li><i class="bi bi-check-circle"></i> 1 Bitácora para tomar nota</li>
-          <li><i class="bi bi-check-circle"></i> 1 Boucher con 25% de descuento en marcas seleccionadas</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="detalle.html" class="btn btn-primary mt-3">Suscribirme</a>
-      </div>
+      <!-- Botón al fondo -->
+      <a href="detalle.html" class="btn btn-primary mt-auto">Suscribirme</a>
     </div>
- <!-- Card: Plan Pro (Recomendado) -->
+    </div>
+
+     <!-- Card: Plan Full -->
     <div class="col-md-4 mb-4">
-      <div class="card p-4 h-100 border border-primary">
-        <!-- Título y precio -->
-         <h5 class="text-start"><span class="badge bg-primary ms-2">Regalo</span></h5>
-        
-        
-        <!-- Imagen ilustrativa -->
-        <img src="assets/img/imgRegalo.png" class="img-fluid img-rounded my-3" alt="Plan Pro">
-        <p class="display-6 text-dark text-start">$26.315 <small>c/u</small></p>
+      <div class="card p-4 h-100">
+        <div class="d-flex flex-column h-100">
+      <!-- Contenido superior -->
+      <h5 class="text-start"><span class="badge gift ms-2">Regalo</span></h5>
+      <img src="assets/img/imgRegalo.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+      <p class="precio text-start mb-0">$26.315 <span class="mes">c/u</span></p>
+      <p class="lead-custom text-start mb-4">1 kit especial para regalar futuro hoy.</p>
+      <p class="lead-custom text-start mb-4"><strong>¿Qué incluye?</strong></p>
+      <ul class="list-unstyled text-start mx-start">
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 25 Piezas de materiales</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>
+        <li class="lead-custom mb-3"><i class="bi bi-check-circle"></i> 1 Agenda Kidkit de 86 hojas</li>
+        <li class="lead-custom"><i class="bi bi-check-circle"></i> 1 Boucher con 10% de descuento en la suscripción</li>
+      </ul>
 
-        <!-- Descripción -->
-        <p class="p-custom text-start">1 kit especial para regalar futuro hoy.<br><br><strong>¿Qué incluye?</strong></p>
-        
-        <!-- Lista de beneficios -->
-        <ul class="list-unstyled text-start mx-start" >
-          <li> <i class="bi bi-check-circle"></i> 1 Actividad para realizar en casa</li>
-          <li><i class="bi bi-check-circle"></i> 25 Piezas de materiales</li>
-          <li><i class="bi bi-check-circle"></i> 1 Guía para realizar la actividad</li>
-          <li><i class="bi bi-check-circle"></i> 1 Agenda Kidkit de 86 hojas</li>
-          <li><i class="bi bi-check-circle"></i> 1 Boucher con 10% de descuento en la suscripción</li>
-        </ul>
-
-        <!-- Botón CTA -->
-        <a href="detalle.html" class="btn btn-primary mt-3">Suscribirme</a>
-      </div>
+      <!-- Botón al fondo -->
+      <a href="detalle.html" class="btn btn-primary mt-auto">REGALAR</a>
     </div>
+    </div>
+ 
   </div>
+</div>
 </section>
 <!-- /PLANES DE SUSCRIPCIÓN -->
-<!--PROYECTOS-->
+
 <!-- FAQS: Preguntas frecuentes -->
-<section class="section-spacing container text-center">
+<section class="section-spacing text-center">
+  <div class="section-custom">
   <div class="row align-items-center">
     <div class="col-lg-6">
     <h2 class="h2-custom text-start">Preguntas frecuentes </h2>
-    <div class="accordion mt-5" id="faqAccordion">
+    <div class="accordion mt-4" id="faqAccordion">
     <!-- Ítem de pregunta -->
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+        <button class="accordion-button text-start faq-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
           ¿Para qué edades está pensado?
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show">
+      <div id="collapseOne" class="accordion-collapse collapse">
         <div class="accordion-body text-start">
           Kidkt está pensado para niños a partir de los 4 años. Las actividades pueden realizarse en solitario o acompañados de un adulto, pero si el niño aún no sabe leer, necesitará de un mayor que lea junto a él las instrucciones para realizarlas.
         </div>
       </div>
     </div>
     <!-- Ítem de pregunta -->
-    <div class="accordion-item">
+    <div class="accordion-item mt-3">
       <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+        <button class="accordion-button text-start faq-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
           ¿Necesito conocimientos previos para acompañar a mi hijo?
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse show">
+      <div id="collapseTwo" class="accordion-collapse collapse ">
         <div class="accordion-body text-start">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat laboriosam repellendus consequatur quia quod ipsa sapiente magnam saepe in perspiciatis dolores obcaecati nulla id voluptatem assumenda facere consectetur, eligendi alias atque iste doloribus sunt. Hic accusamus quasi fugiat, tempora possimus, neque, incidunt quaerat similique aperiam error inventore impedit deleniti?
         </div>
       </div>
     </div>
         <!-- Ítem de pregunta -->
-    <div class="accordion-item">
+    <div class="accordion-item mt-3">
       <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+        <button class="accordion-button text-start faq-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
           ¿Qué pasa si no estoy en casa cuando llega?
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse show">
+      <div id="collapseTwo" class="accordion-collapse collapse ">
         <div class="accordion-body text-start">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat laboriosam repellendus consequatur quia quod ipsa sapiente magnam saepe in perspiciatis dolores obcaecati nulla id voluptatem assumenda facere consectetur, eligendi alias atque iste doloribus sunt. Hic accusamus quasi fugiat, tempora possimus, neque, incidunt quaerat similique aperiam error inventore impedit deleniti?
         </div>
       </div>
     </div>
         <!-- Ítem de pregunta -->
-    <div class="accordion-item">
+    <div class="accordion-item mt-3">
       <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+        <button class="accordion-button text-start faq-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
           ¿Necesito tener materiales en casa o viene todo incluido?
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse show">
+      <div id="collapseTwo" class="accordion-collapse collapse">
         <div class="accordion-body text-start">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat laboriosam repellendus consequatur quia quod ipsa sapiente magnam saepe in perspiciatis dolores obcaecati nulla id voluptatem assumenda facere consectetur, eligendi alias atque iste doloribus sunt. Hic accusamus quasi fugiat, tempora possimus, neque, incidunt quaerat similique aperiam error inventore impedit deleniti?
         </div>
       </div>
     </div>
         <!-- Ítem de pregunta -->
-    <div class="accordion-item">
+    <div class="accordion-item mt-3">
       <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+        <button class="accordion-button text-start faq-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
           ¿Puedo comprar una sola caja como regalo?
         </button>
       </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse show">
+      <div id="collapseTwo" class="accordion-collapse collapse">
         <div class="accordion-body text-start">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellat laboriosam repellendus consequatur quia quod ipsa sapiente magnam saepe in perspiciatis dolores obcaecati nulla id voluptatem assumenda facere consectetur, eligendi alias atque iste doloribus sunt. Hic accusamus quasi fugiat, tempora possimus, neque, incidunt quaerat similique aperiam error inventore impedit deleniti?
         </div>
@@ -314,17 +334,18 @@
     <div class="col-lg-6 mt-4 mt-lg-0">
       <img src="assets/img/imgVikingoBanderin.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
     </div>
-  </div>
+  </div></div>
 </section>
 <!-- /FAQS -->
 
 <!-- FOOTER: Pie de página -->
-<footer class="text-center py-4">
-  <section class=" section-spacing container text-start ">
+<footer class="text-center">
+  <section class=" section-spacing  text-start ">
+  <div class="section-custom">
   <div class="row align-items-start">
-    <h2 class="col">Kidkit</h2>
+    <h2 class="col footer-brand">Kidkit</h2>
   
-  <div class="col" >
+  <div class="col pb-5" >
     <ul>
       <li><h5>Inicio</h5></li>
       <li>Nuestro enfoque</li>
@@ -366,9 +387,10 @@
   </div>
 </section>
   
-  <div class="container">
-    <p class="p-custom">© Copyright Kidkit 2025 | Todos los derechos reservados.</p>
+  <div class="container text-start">
+    <p class="pb-5"> <smaller> © Copyright Kidkit 2025 | Todos los derechos reservados.</smaller></p>
   </div>
+</div>
 </footer>
 <!-- /FOOTER -->
 
