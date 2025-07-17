@@ -23,9 +23,13 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
-.section-custom {
 
-}
+ @media (max-width: 767px) {
+  .section-custom {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+} 
 
 @media (min-width: 768px) {
   .section-custom {
@@ -50,18 +54,19 @@ body {
 
 .xqKidkit { margin-bottom: 3rem !important;}; 
 /* 3. NAVBAR */
+nav {background-color: #fff;
+box-shadow: #cccccc 25%;
+}
 .navbar {
-  background-color: #ffffff;
-  transition: background-color 0.3s, box-shadow 0.3s;
+ 
+  background-color: #fff !important;
+  
   padding: 8px 0;
   height: 4rem;
-  box-shadow: #cccccc 25%;
+  
 }
 
-.navbar.scrolled {
-  background-color: #fff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-}
+
 
 .navbar-brand {
   font-family: "Bagel Fat One", system-ui;
@@ -144,6 +149,13 @@ p {
   font-size: 1.5rem;
 }
 
+.gifProyectos {
+  background-image: url("assets/img/gIFProyectos.gif"); /* asegurate de que la ruta sea correcta */
+  background-size: cover;   /* esto hace el efecto "recorte tipo Figma" */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;        /* o lo que necesites según el layout */
+}
 
 /* Botones */
 .btn {
@@ -527,7 +539,7 @@ align-content: center;
 
 /* ESPACIADOS */
 .section-spacing {
-  margin-top: 108px;
+  margin-top: 6.75rem;
  padding-bottom: 0;
 }
 
@@ -566,4 +578,24 @@ align-content: center;
   .masonry__container {
     column-count: 1;
   }
+  .section-hero {
+  background-image:url(assets/img/bgHeroIndexMobile.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.section-hero-detalle {
+  background-image:url(assets/img/bgHeroDetalleMobile.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.section-spacing {
+  margin-top: 4rem;
+ padding-bottom: 0;
+}
+
 }

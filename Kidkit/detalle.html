@@ -21,7 +21,7 @@
 <body>
     <!-- NAVBAR: Menú de navegación fijo superior -->
 <!-- NAVBAR: Menú de navegación fijo superior -->
-<nav class="navbar navbar-expand-lg fixed-top scrolled">
+<nav class="navbar navbar-expand-lg fixed-top ">
   <div class="container">
     <!-- Logo o nombre del sitio -->
     <a class="navbar-brand" href="detalle.html">Kidkit</a>
@@ -165,7 +165,7 @@
     <div class="section-custom">
     <h2 class="mb-4">Nuestros proyectos </h2>
 </div>
-    <img src="assets/img/gIFProyectos.gif" class="img-fluid" alt="Gif con proyectos">
+    <div class="gifProyectos" ></div>
 </div>
 </section>
 
@@ -398,12 +398,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 <!-- Script personalizado para cambiar el navbar al hacer scroll -->
-<script>
-window.addEventListener('scroll', function() {
-  const navbar = document.querySelector('.navbar');
-  navbar.classList.toggle('scrolled', window.scrollY > 50);
-});
-</script>
+
 
 <!-- Scripts adicionales -->
 <script src="scripts.js"></script>

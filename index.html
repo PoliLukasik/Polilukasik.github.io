@@ -1,73 +1,38 @@
-<!--Este es un comentario de HTML-->
-<!--Los comentarios no se renderizan en el navegador, son únicamente para quienes inspeccionan el código-->
-
-
-<!--Declaración de tipo de documento-->
-    <!DOCTYPE html>
-
-<!--Declaración de idioma de la página-->
-    <html lang="es">
-
-<!--Etiqueta <head> con información para el navegador, los usuarios no van a ver esta información publicada.
-    Es únicamente para funcionamiento del navegador-->
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidkit - Entrega</title>
 
-    <!--Esta es la "metadata", que permite insertar información para los buscadores y el navegador-->
+    <!-- Tipografía desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-        <!--Set de caracteres utilizados. UTF-8 incluye ñ y acentos, es el más usado-->
-            <meta charset="UTF-8">
-        <!--Declaración de vista de compatibilidad-->
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!--Seteo de la pantalla para que la escala sea 1/1-->
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Acá va el título de la página, que aparece en la pestaña-->
-            <title>Ejercicio 12/6/25 Poli Lukasik</title>
-        <!--Declaración de estilos en CSS-->
-        <link rel="stylesheet" href="estilos.css">
-        <!--Declaración de favicon (Icono de Favoritos)-->
-        <link  rel="icon"   href="media/logo_B.png" type="image/png" />
-        <!--Declaración de información de la página-->
-        <meta name="description" content="Esta es la descripción que aparecerá al buscar o encontrar la página en un navegador o buscador">
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="Kidkit/styles.css">
 </head>
-
-<!--Etiqueta <body> que incluye todo el contenido de la página.
-    La mayoría de lo escrito acá adentro se refleja en la pantalla que verá el usuario.-->
 <body>
-    <!--Barra de navegación con links-->
-    <!--Este es un elemento de navegación (nav) que debe ser único por página HTML. Tiene una clase "row"-->
-    <nav class="row">
-        <!--Este es un link (a) que lleva hacia otra página (href)-->
-        <a href="#">Home</a>
-        <a href="Kidkit/index.html">TP Web</a>
-        <!--Esta es una división con id único "logo" que contiene la imagen del logo-->
-        <div id="logo"><img src="media/logo_B.png" alt="Logo Poli"></div>
-        <a href="Kidkit/detalle.html">Detalle</a>
-        <a href="#">Campus</a>
-    </nav>
 
-    <!--Banner con información dentro-->
-    <!-- Esta es una división o contenedor de página (div) con las clases "banner" y "colb"-->
-    <div class="banner colb">
-        <!--Esta es una división o contenedor de página con clase "banner_info"-->
-        <div class="banner_info">
-            <div class="colores">
-                <!--Esta división tiene un id único "color#" que debe ser único por documento html-->
-                <div id="color1" class="color"><img class="icon" src="media/icon1.png" alt="Esta es la descripción del icono por si no carga correctamente"></div>
-                <div id="color2" class="color"><img class="icon" src="media/icon2.png" alt="Esta es la descripción del icono por si no carga correctamente"></div>
-                <div id="color3" class="color"><img class="icon" src="media/icon3.png" alt="Esta es la descripción del icono por si no carga correctamente"></div>
-                <div id="color4" class="color"><img class="icon" src="media/icon4.png" alt="Esta es la descripción del icono por si no carga correctamente"></div>
-            </div>
-            <!--Este es un título de clase 1 (El más importante)-->
-            <h1>Bienvenidos a los juegos
-                <!--Salto de línea--><br>
-                 del html.</h1>
-            <!--Este es un párrafo de texto-->
-            <p>Favor de tener un migral a mano</p>
-            <a href="#" class="btn">Comenzar a codear</a>
-        </div>
+<section class="justify-content-center">
+  <div class="section-custom">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 bg-white py-4 px-4">
+        <h2 class="h2-swap">¡Hola Vikingo!</h2>
+        <p class="lead-custom pt-4">TP Paula Lukasik - Comisión 2</p>
+        <a href="Kidkit/index.html" class="btn btn-primary mt-2 w-100">Home</a>
+        <a href="Kidkit/detalle.html" class="btn btn-primary mt-2 w-100">Detalle</a>
+        <a href="Kidkit/index.html" class="btn btn-primary mt-2 w-100">Plantilla</a>
+        <img src="Kidkit/assets/img/imgVikingoBanderin.png" class="img-fluid mt-4 py-4" alt="Vikingo Chévere">
+      </div>
     </div>
+  </div>
+</section>
 
-    <!--Cierra body (contenido)-->
 </body>
-<!--Fin del documento HTML-->
-</html>
