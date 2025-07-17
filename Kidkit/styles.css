@@ -258,6 +258,11 @@ section h2 {
 .card:hover {
   transform: translateY(-5px);
 }
+.actividad {
+  min-width: 16.6%;
+  flex: 0 0 auto;
+}
+
 .actividad:hover {
   transform: translateY(-5px);
 }
@@ -266,6 +271,10 @@ section h2 {
   border: 4px solid var(--Naranja, #FF8000) !important;
 
 }
+
+.navbar-collapse {background-color: #fff;}
+
+
 
 .card-title {
   font-size: 1.25rem;
@@ -549,6 +558,7 @@ align-content: center;
 }
 
 
+
 /* ============================== */
 /* MEDIA QUERIES */
 /* ============================== */
@@ -566,6 +576,11 @@ align-content: center;
   .masonry__container {
     column-count: 3;
   }
+
+  
+  .navbar-collapse .nav-item{ margin-bottom: 0.5rem;
+
+}
 }
 
 @media screen and (max-width: 768px) {
